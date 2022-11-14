@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: arc007arnob/auth
+          image: arc007arnob/gateway
           ports:
             - containerPort: 5000
           envFrom:
